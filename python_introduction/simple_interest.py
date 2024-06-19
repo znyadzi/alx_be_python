@@ -10,4 +10,4 @@ T = time
 
 I = P * R * T
 
-print(f"The simple interest is: {interest}")
+print(f"The simple interest is: {I}")
