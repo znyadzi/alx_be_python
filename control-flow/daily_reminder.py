@@ -16,4 +16,7 @@ if time_bound == "yes":
 elif time_bound == "no":
     reminder = f"Note: {task} is a {priority} priority task. Consider completing it when you have free time."
 
-print(reminder)
+print(f"Reminder: {reminder}")
+
+# hi newhemiah it has to be something like print("Reminder:", reminder). 
+# where reminder is the variable of the m,essage
