@@ -1,12 +1,15 @@
+# main-0.py
+
 import sys
 from bank_account import BankAccount
 
 def main():
-    account = BankAccount(100)  # Example starting balance
+    account = BankAccount(initial_balance=250) 
     if len(sys.argv) < 2:
         print("Usage: python main.py <command>:<amount>")
         print("Commands: deposit, withdraw, display")
         sys.exit(1)
+         
 
     command, *params = sys.argv[1].split(':')
     amount = float(params[0]) if params else None
@@ -26,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
