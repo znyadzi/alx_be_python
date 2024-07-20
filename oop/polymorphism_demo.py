@@ -3,7 +3,7 @@ import math
 # Base Class - Shape
 class Shape:
     def area(self):
-        raise NotImplementedError("Subclasses should implement this!")
+        raise NotImplementedError("Subclasses have not been implemented")
 
 # Derived Class - Rectangle
 class Rectangle(Shape):
