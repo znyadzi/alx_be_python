@@ -55,3 +55,17 @@ golf = Sports("Football", "Outdoor Sports")
 print(golf.name)
 print(golf.type)
 """
+
+# 6 Inheritance
+"""
+# Parent class
+class Sports:
+    type = "Outdoor"
+    distance = "short"
+    use_hands = False
+
+# Child Class
+class Football(Sports):
+    name = "Football"
+"""
+# 
