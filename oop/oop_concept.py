@@ -45,4 +45,13 @@ class Point:
         self.y = new_y
 """
 
-# 5 
+# 5 Class Contructors
+"""
+class Sports:
+    def __init__(self, sports_name, sports_type):
+        self.name = sports_name
+        self.type = sports_type
+golf = Sports("Football", "Outdoor Sports")
+print(golf.name)
+print(golf.type)
+"""
