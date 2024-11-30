@@ -68,4 +68,18 @@ class Sports:
 class Football(Sports):
     name = "Football"
 """
-# 
+# 7 Inheritance Recap Challenge 1
+""" 
+class Plant:
+    scientific_name = ""
+    climate = ""
+
+    def __init__(self, scientific_name, climate):
+        self.scientific_name = scientific_name
+        self.climate = climate
+
+class Lotus(Plant):
+    pass
+"""
+
+# Recap Challenge 2
